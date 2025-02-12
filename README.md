@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+**<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <img src="image.png" alt="Rocket Ranch Aussies Logo">
+        <img src="image.png" alt="Rocket Ranch Aussies Logo" style="height: 100px;">
         Rocket Ranch Aussies
     </header>
     <nav>
@@ -63,4 +63,4 @@
         </div>
     </section>
 </body>
-</html>
+</html>**
