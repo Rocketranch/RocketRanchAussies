@@ -35,7 +35,8 @@
 </head>
 <body>
     <header>
-        <img src="RR-Logo.jpg" alt="Rocket Ranch Aussies Logo" style="height: 120px;">
+        <img src="rr-logo.jpg" alt="Rocket Ranch Aussies Logo" style="height: 120px;">
+
     </header>
     <nav>
         <a href="#home">Home</a>
