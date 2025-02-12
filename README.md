@@ -10,7 +10,7 @@
             margin: 0; 
             padding: 0; 
             text-align: center; 
-            background-color: #E1D3C1; /* Rustic blue-green */
+            background-color /* Rustic blue-green */
             color: #F4EDE4; /* Soft beige for better readability */
         }
         header { 
@@ -35,7 +35,7 @@
 </head>
 <body>
     <header>
-        <img src="RR Logo.jpg" alt="Rocket Ranch Aussies Logo" style="height: 120px;">
+        <img src="RR-Logo.jpg" alt="Rocket Ranch Aussies Logo" style="height: 120px;">
         Rocket Ranch Aussies
     </header>
     <nav>
@@ -79,3 +79,4 @@
     </section>
 </body>
 </html>
+
