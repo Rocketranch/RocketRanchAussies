@@ -6,12 +6,12 @@
     <title>Rocket Ranch Aussies</title>
     <style>
         body { 
-            font-family: Arial, sans-serif; 
+            font-family: 'Georgia', serif; 
             margin: 0; 
             padding: 0; 
             text-align: center; 
             background-color /* Rustic blue-green */
-            color: #F4EDE4; /* Soft beige for better readability */
+            color: #3E2F2F; /* Soft beige for better readability */
         }
         header { 
             background: #8B5E3C; /* Dark rustic green */
@@ -36,7 +36,6 @@
 <body>
     <header>
         <img src="RR-Logo.jpg" alt="Rocket Ranch Aussies Logo" style="height: 120px;">
-        Rocket Ranch Aussies
     </header>
     <nav>
         <a href="#home">Home</a>
