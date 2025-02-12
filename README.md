@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rocket Ranch Aussies</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
-        header { background: #2B65EC; color: white; padding: 15px; font-size: 24px; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; background-color: #5D6D7E; }
+        header { background: #2B65EC; color: white; padding: 15px; font-size: 24px; display: flex; align-items: center; justify-content: center; }
+        header img { height: 80px; margin-right: 15px; }
         nav { background: #333; padding: 10px; }
         nav a { color: white; text-decoration: none; padding: 10px 15px; display: inline-block; }
-        section { padding: 20px; }
-        .puppies img { width: 100%; max-width: 300px; margin: 10px; }
+        section { padding: 20px; max-width: 800px; margin: auto; }
+        .puppies { display: flex; flex-wrap: wrap; justify-content: center; }
+        .puppies img { width: 100%; max-width: 300px; margin: 10px; border-radius: 10px; }
         .contact-form { max-width: 400px; margin: auto; background: #f4f4f4; padding: 15px; border-radius: 5px; }
-        input, textarea { width: 100%; padding: 8px; margin: 5px 0; }
-        button { background: #2B65EC; color: white; padding: 10px; border: none; cursor: pointer; }
+        input, textarea { width: 100%; padding: 8px; margin: 5px 0; border-radius: 5px; border: 1px solid #ccc; }
+        button { background: #2B65EC; color: white; padding: 10px; border: none; cursor: pointer; border-radius: 5px; }
     </style>
 </head>
 <body>
-    <header>Rocket Ranch Aussies</header>
+    <header>
+        <img src="image.png" alt="Rocket Ranch Aussies Logo">
+        Rocket Ranch Aussies
+    </header>
     <nav>
         <a href="#home">Home</a>
         <a href="#puppies">Available Puppies</a>
@@ -35,6 +40,8 @@
         <div class="puppies">
             <img src="puppy1.jpg" alt="Blue Merle Mini Aussie">
             <img src="puppy2.jpg" alt="Red Tri Mini Aussie">
+            <img src="puppy3.jpg" alt="Black Tri Mini Aussie">
+            <img src="puppy4.jpg" alt="Blue Merle Mini Aussie">
             <p>Our current litter is looking for their forever homes! Contact us for more details on available puppies and upcoming litters.</p>
         </div>
     </section>
