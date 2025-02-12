@@ -1,26 +1,41 @@
-**<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rocket Ranch Aussies</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; background-color: #5D6D7E; }
-        header { background: #2B65EC; color: blue; padding: 15px; font-size: 24px; display: flex; align-items: center; justify-content: center; }
-        header img { height: 80px; margin-right: 15px; }
-        nav { background: #333; padding: 10px; }
-        nav a { color: white; text-decoration: none; padding: 10px 15px; display: inline-block; }
-        section { padding: 20px; max-width: 800px; margin: auto; }
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            text-align: center; 
+            background-color: #3E4C42; /* Rustic blue-green */
+            color: #F4EDE4; /* Soft beige for better readability */
+        }
+        header { 
+            background: #2D3E34; /* Dark rustic green */
+            color: white; 
+            padding: 20px; 
+            font-size: 28px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+        }
+        header img { height: 120px; margin-right: 15px; }
+        nav { background: #4F6054; padding: 15px; }
+        nav a { color: #F4EDE4; text-decoration: none; padding: 12px 20px; display: inline-block; font-size: 18px; }
+        section { padding: 30px; max-width: 900px; margin: auto; }
         .puppies { display: flex; flex-wrap: wrap; justify-content: center; }
-        .puppies img { width: 100%; max-width: 300px; margin: 10px; border-radius: 10px; }
-        .contact-form { max-width: 400px; margin: auto; background: #f4f4f4; padding: 15px; border-radius: 5px; }
-        input, textarea { width: 100%; padding: 8px; margin: 5px 0; border-radius: 5px; border: 1px solid #ccc; }
-        button { background: #2B65EC; color: white; padding: 10px; border: none; cursor: pointer; border-radius: 5px; }
+        .puppies img { width: 100%; max-width: 320px; margin: 15px; border-radius: 15px; box-shadow: 3px 3px 10px rgba(0,0,0,0.2); }
+        .contact-form { max-width: 450px; margin: auto; background: #4F6054; padding: 20px; border-radius: 10px; }
+        input, textarea { width: 100%; padding: 10px; margin: 8px 0; border-radius: 8px; border: none; background: #F4EDE4; color: #2D3E34; }
+        button { background: #A67C52; color: white; padding: 12px; border: none; cursor: pointer; border-radius: 8px; font-size: 18px; }
     </style>
 </head>
 <body>
     <header>
-        <img src="rocket-ranch-logo.png" alt="Rocket Ranch Aussies Logo" style="height: 100px;">
+        <img src="image.png" alt="Rocket Ranch Aussies Logo" style="height: 120px;">
         Rocket Ranch Aussies
     </header>
     <nav>
@@ -63,4 +78,4 @@
         </div>
     </section>
 </body>
-</html>**
+</html>
