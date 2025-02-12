@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -34,8 +33,8 @@
     </style>
 </head>
 <body>
-    <header><img src="RR-Logo.jpg" alt="Rocket Ranch Aussies Logo" style="height: 120px;">
-
+    <header>
+        <img src="RR-Logo.jpg" alt="Rocket Ranch Aussies Logo" style="height: 120px;">
     </header>
     <nav>
         <a href="#home">Home</a>
@@ -78,4 +77,4 @@
     </section>
 </body>
 </html>
-**
+
