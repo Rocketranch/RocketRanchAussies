@@ -6,12 +6,12 @@
     <title>Rocket Ranch Aussies</title>
     <style>
         body { 
-            font-family: 'Courier New', Courier, monospace; 
+            font-family: 'Playfair Display', serif; 
             margin: 0; 
             padding: 0; 
             text-align: center; 
             background-color: #D2B48C; /* Warm rustic tan */
-            color: #5C4033; /* Soft beige for better readability */
+            color: #3D2B1F; /* Soft beige for better readability */
         }
         header { 
             background: #8B5E3C; /* Dark rustic green */
@@ -78,3 +78,4 @@
     </section>
 </body>
 </html>
+
