@@ -10,11 +10,11 @@
             margin: 0; 
             padding: 0; 
             text-align: center; 
-            background-color: #3E4C42; /* Rustic blue-green */
+            background-color: #E1D3C1; /* Rustic blue-green */
             color: #F4EDE4; /* Soft beige for better readability */
         }
         header { 
-            background: #2D3E34; /* Dark rustic green */
+            background: #8B5E3C; /* Dark rustic green */
             color: white; 
             padding: 20px; 
             font-size: 28px; 
@@ -23,7 +23,7 @@
             justify-content: center; 
         }
         header img { height: 120px; margin-right: 15px; }
-        nav { background: #4F6054; padding: 15px; }
+        nav { background: #A67C52; padding: 15px; }
         nav a { color: #F4EDE4; text-decoration: none; padding: 12px 20px; display: inline-block; font-size: 18px; }
         section { padding: 30px; max-width: 900px; margin: auto; }
         .puppies { display: flex; flex-wrap: wrap; justify-content: center; }
@@ -35,7 +35,7 @@
 </head>
 <body>
     <header>
-        <img src="image.png" alt="Rocket Ranch Aussies Logo" style="height: 120px;">
+        <img src="RR Logo.jpg" alt="Rocket Ranch Aussies Logo" style="height: 120px;">
         Rocket Ranch Aussies
     </header>
     <nav>
