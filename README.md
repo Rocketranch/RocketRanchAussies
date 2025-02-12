@@ -6,7 +6,7 @@
     <title>Rocket Ranch Aussies</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; background-color: #5D6D7E; }
-        header { background: #2B65EC; color: white; padding: 15px; font-size: 24px; display: flex; align-items: center; justify-content: center; }
+        header { background: #2B65EC; color: blue; padding: 15px; font-size: 24px; display: flex; align-items: center; justify-content: center; }
         header img { height: 80px; margin-right: 15px; }
         nav { background: #333; padding: 10px; }
         nav a { color: white; text-decoration: none; padding: 10px 15px; display: inline-block; }
@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <img src="image.png" alt="Rocket Ranch Aussies Logo" style="height: 100px;">
+        <img src="rocket-ranch-logo.png" alt="Rocket Ranch Aussies Logo" style="height: 100px;">
         Rocket Ranch Aussies
     </header>
     <nav>
