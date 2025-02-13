@@ -104,7 +104,8 @@
         <a href="#home">Home</a>
         <a href="#puppies">Available Puppies</a>
         <a href="#about">About Us</a>
-        <a href="#contact">Contact</a>
+        
+    <a href="#parents">Parents</a>
     </nav>
     
     <section id="home">
@@ -128,16 +129,14 @@
         <p>At Rocket Ranch Aussies, we absolutely love the Mini Aussie breed and are passionate about raising well-rounded puppies. We focus on early potty training, crate training, and socialization to help prepare each puppy for their forever home. Our goal is to provide loving companions who are ready to integrate smoothly into their new families.</p>
     </section>
     
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <div class="contact-form">
-            <form action="https://formspree.io/f/YOUR_UNIQUE_CODE" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+    
+    <section id="parents">
+        <h2>Meet the Parents</h2>
+        <div class="puppies">
+            <img src="parent1.jpg" alt="Parent 1 - Mini Aussie">
+            <img src="parent2.jpg" alt="Parent 2 - Mini Aussie">
         </div>
+        <p>Our wonderful parent dogs are loving, intelligent, and excellent examples of the Mini Aussie breed. They help ensure that our puppies inherit great temperaments and health.</p>
     </section>
 </body>
 </html>
