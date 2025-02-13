@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rocket Ranch Aussies</title>
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
         body { 
             font-family: 'Playfair Display', serif; 
             margin: 0; 
@@ -23,14 +26,74 @@
             justify-content: center; 
         }
         header img { height: 120px; margin-right: 15px; }
-        nav { background: #A67C52; padding: 15px; }
-        nav a { color: #F4EDE4; text-decoration: none; padding: 12px 20px; display: inline-block; font-size: 18px; }
-        section { padding: 30px; max-width: 900px; margin: auto; }
-        .puppies { display: flex; flex-wrap: wrap; justify-content: center; }
-        .puppies img { width: 100%; max-width: 320px; margin: 15px; border-radius: 15px; box-shadow: 3px 3px 10px rgba(0,0,0,0.2); }
-        .contact-form { max-width: 450px; margin: auto; background: #4F6054; padding: 20px; border-radius: 10px; }
-        input, textarea { width: 100%; padding: 10px; margin: 8px 0; border-radius: 8px; border: none; background: #F4EDE4; color: #2D3E34; }
-        button { background: #A67C52; color: white; padding: 12px; border: none; cursor: pointer; border-radius: 8px; font-size: 18px; }
+        nav { 
+            background: #8B5E3C;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        nav a { 
+            color: #F4EDE4;
+            text-decoration: none;
+            padding: 12px 20px;
+            font-size: 18px;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #A67C52;
+            border-radius: 5px;
+        }
+        #home {
+            background: url('background.jpg') center/cover no-repeat;
+            color: white;
+            padding: 80px 20px;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+        }
+        .puppies {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .puppies img {
+            width: 100%;
+            border-radius: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .puppies img:hover {
+            transform: scale(1.05);
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        .contact-form {
+            max-width: 500px;
+            background: #F4EDE4;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #8B5E3C;
+            font-size: 16px;
+        }
+        button {
+            background: #8B5E3C;
+            color: white;
+            font-size: 18px;
+            padding: 12px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #A67C52;
+        }
     </style>
 </head>
 <body>
